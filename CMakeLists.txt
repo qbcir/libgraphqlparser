@@ -120,6 +120,7 @@ INSTALL(FILES
   GraphQLParser.h
   JsonVisitor.h
   ${BISON_LOCATION_HEADER}
+  ${CMAKE_CURRENT_BINARY_DIR}/position.hh
   DESTINATION include/graphqlparser)
 INSTALL(TARGETS graphqlparser
   LIBRARY DESTINATION lib)
